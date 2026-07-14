@@ -1,0 +1,114 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friend Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .cat {
+            background-color: white;
+            width: 250px;
+            border-radius: 6px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .cat img.main {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .cat-content {
+            padding: 15px;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .mutual {
+            color: gray;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+        }
+
+        .mutual img {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .add-f {
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .add-f:hover {
+            background-color: #165fbe;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Card 1 -->
+    <div class="cat">
+
+        <img class="main" src="IMG-20250807-WA0022.jpg" alt="Oliver">
+        <div class="cat-content">
+            <p class="name">Oliver</p>
+            <div class="mutual">
+                <img src="Image 2025-08-07 at 10.44.48_0046a19e.jpg" alt="mutual friend">
+                <span>2 mutual friends</span>
+            </div>
+            <button class="add-f">Add Friend</button>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="cat">
+        <img class="main" src="IMG-20250807-WA0021.jpg" alt="Mimi">
+        <div class="cat-content">
+            <p class="name">Mimi</p>
+            <div class="mutual">
+                <img src="Image 2025-08-07 at 10.44.48_0046a19e.jpg" alt="mutual friend">
+                <span>3 mutual friends</span>
+            </div>
+            <button class="add-f">Add Friend</button>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="cat">
+        <img class="main" src="IMG-20250807-WA0020.jpg" alt="Rex">
+        <div class="cat-content">
+            <p class="name">Rex</p>
+            <div class="mutual">
+                <img src="Image 2025-08-07 at 10.44.48_0046a19e.jpg" alt="mutual friend">
+                <span>4 mutual friends</span>
+            </div>
+            <button class="add-f">Add Friend</button>
+        </div>
+    </div>
+
+</body>
+</html>
